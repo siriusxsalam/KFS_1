@@ -1,0 +1,15 @@
+# Compiled object files
+*.object
+
+# Generated kernel
+kernel.elf
+
+# Build directory contents
+build/*
+
+# Generated ISO
+*.ISO
+
+# Temporary files
+*.tmp
+*~

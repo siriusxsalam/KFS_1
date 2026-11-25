@@ -24,7 +24,7 @@ static void print_unsigned(u32 number, u32 base)
         screen_write_char(buffer[--i]);
 }
 
-void kprintf(const char *format, ...)
+void printk(const char *format, ...)
 {
     va_list args;
     va_start(args, format);

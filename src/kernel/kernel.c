@@ -21,7 +21,7 @@ void kernel_main(void) {
 
     initialize_screens();
 
-    kprintf("42\n");
+    printk("42\n");
 
     while (1) {
         int character = keyboard_getchar();
